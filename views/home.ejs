@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+
+<h2>Bem-vindo!</h2>
+
+<% if (user) { %>
+  <p>Olá, <strong><%= user.username %></strong>! Você está logado.</p>
+<% } else { %>
+  <p>Você não está logado.</p>
+<% } %>
+
+<%- include('partials/footer') %>

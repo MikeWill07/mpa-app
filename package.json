@@ -1,0 +1,12 @@
+{
+  "name": "mpa-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.0",
+    "ejs": "^3.1.9",
+    "body-parser": "^1.20.2",
+    "express-session": "^1.17.3"
+  }
+}
